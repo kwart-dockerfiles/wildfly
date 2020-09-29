@@ -1,8 +1,8 @@
-FROM alpine:3.10
+FROM alpine:3.11
 
 MAINTAINER Josef (kwart) Cacek <josef.cacek@gmail.com>
 
-ENV WILDFLY_VERSION=17.0.1.Final
+ENV WILDFLY_VERSION=20.0.1.Final
 
 ADD http://download.jboss.org/wildfly/$WILDFLY_VERSION/wildfly-$WILDFLY_VERSION.zip /opt/
 
