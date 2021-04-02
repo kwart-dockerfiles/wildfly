@@ -1,4 +1,4 @@
-FROM alpine:3.11
+FROM alpine:3.13.4
 
 MAINTAINER Josef (kwart) Cacek <josef.cacek@gmail.com>
 
